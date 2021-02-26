@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display: flex;
+    position: relative;
+    box-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+}
+
+.main #total{
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    top: 0%;
+    font-size: 40px;
+}
+.main #buttoninput{
+    position:absolute;
+    bottom: 10%;
+    padding: 0;
+}
+#number{
+    text-align: center;
+    font-size: 20px;
+    height: 40px;
+    width: 75px;
+}
+.main button{
+    height: 30px;
+    width: 40px;
+    color: white;
+    background-color: gray;
+}
+button:hover{
+    background-color: white;
+    color : gray;
+}
